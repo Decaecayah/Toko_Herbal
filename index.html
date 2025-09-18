@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html lang="id" class="scroll-smooth">
 <head>
@@ -249,3 +250,313 @@
 </div>
 </body>
 </html>
+=======
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Toko Herbal | DeBest Radio Pemalang</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-green-100 to-green-200 to-green-300 min-h-screen">
+<div class="flex flex-col">
+
+<!-- Header -->
+<header id="navbar" class="rounded shadow fixed top-0 left-0 w-full bg-white shadow transition-transform duration-300 z-50">
+  <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+    <div class="flex h-16 items-center justify-between">
+      <div class="flex-1 md:flex md:items-center md:gap-12">
+        <a class="block text-teal-600" href="#">
+          <span class="sr-only">Home</span>
+          <img class="w-12" src="img/WhatsApp_Image_2025-09-10_at_09.31.28-removebg-preview.png" alt="">
+        </a>
+      </div>
+
+<!-- Navbar -->
+        <nav aria-label="Global" class="hidden md:block">
+          <ul class="flex items-center gap-6 text-sm">
+            <li>
+              <a class="transition hover:text-gray-500/75" href="#home"> Home </a>
+            </li>
+
+            <li>
+              <a class="transition hover:text-gray-500/75" href="#produk"> Produk </a>
+            </li>
+
+            <li>
+              <a class="transition hover:text-gray-500/75" href="#cara"> Cara Pemesanan </a>
+            </li>
+
+          </ul>
+        </nav>
+<div class="flex items-center gap-3">
+<button id="cartBtn" class="relative p-2 rounded hover:bg-gray-100">
+<!-- simple cart icon -->
+<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 7m13-7l2 7m-5-7v7" />
+</svg>
+<span id="cartCount" class="absolute -top-1 -right-1 bg-red-600 text-white rounded-full text-xs w-5 h-5 flex items-center justify-center">0</span>
+</button>
+<!-- mobile menu button -->
+<button id="menuBtn" class="md:hidden p-2">
+<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+</svg>
+</button>
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+</header>
+
+  <!-- Home -->
+  <section id="home" class="rounded shadow p-12 overflow-hidden sm:grid sm:grid-cols-2 sm:items-center">
+  <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+    <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+      <h2 class="text-2xl font-bold md:text-3xl">
+        Toko Obat Herbal DeBest Radio Pemalang
+      </h2>
+
+      <p class="hidden md:mt-4 md:block">
+        Toko Obat Herbal DeBest Radio Pemalang hadir untuk menyediakan berbagai produk herbal pilihan yang alami dan terpercaya. Dengan beragam produk seperti Vitoza Madu Pahit, Madu Hijau, Bio Netra, Bio Nuratik, Menroso, dan lainnya, kami berkomitmen mendukung kesehatan serta gaya hidup sehat masyarakat Pemalang dan sekitarnya.
+      </p>
+
+      <div class="mt-4 md:mt-8">
+        <a
+          href="#produk"
+          class="inline-block rounded-sm bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:ring-3 focus:ring-yellow-400 focus:outline-hidden"
+        >
+          Lihat Produk
+        </a>
+        <a
+          href="#cara"
+          class="inline-block rounded-sm bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:ring-3 focus:ring-yellow-400 focus:outline-hidden"
+        >
+          Cara Pemesanan
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <img
+    alt=""
+    src="img/Capture001.png"
+    class="w-96 ml-20 object-cover"
+  />
+</section>
+
+    <!-- Produk -->
+     <section id="produk" class="py-20 p-12 rounded shadow p-12">
+      <div class="items-center text-center">
+        <h2 class="text-2xl font-bold md:text-3xl">
+          Produk
+        </h2>
+      </div>
+
+      <div id="products" class="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      </div>
+    </section>
+
+    <!-- Cara Pemesanan -->
+    <section id="cara" class="py-8 rounded shadow p-12">
+      <h2 class="text-2xl font-bold text-center">Cara Pemesanan</h2>
+      <ol class="list-decimal list-inside mt-3 space-y-2 text-gray-700">
+        <li>Pilih produk. Klik produk untuk menambah ke keranjang.</li>
+        <li>Buka keranjang di pojok kanan atas untuk lihat pesanan.</li>
+        <li>Periksa jumlah dan total. Klik <strong>Checkout</strong>.</li>
+        <li>Anda akan diarahkan ke WhatsApp dengan pesan order otomatis (isi detail nama, alamat, dan catatan jika perlu).</li>
+        <li>Admin/penjual akan menghubungi kembali untuk konfirmasi.</li>
+      </ol>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 text-center text-sm text-gray-500">
+      © Toko Obat Herbal - DeBest Radio Pemalang | Jl. Perintis Kemerdekaan No.33, Beji, Kec. Taman, Kabupaten Pemalang, Jawa Tengah 52361
+    </footer>
+  </main>
+
+  <!-- Cart Panel (hidden by default) -->
+  <div id="cartPanel" class="fixed inset-0 hidden z-50">
+    <div id="overlay" class="absolute inset-0 bg-black/30"></div>
+    <div class="absolute right-0 top-0 h-full w-full md:w-96 bg-white shadow-lg p-4 overflow-auto">
+      <div class="flex items-center justify-between">
+        <h4 class="font-semibold">Keranjang</h4>
+        <div class="flex items-center gap-2">
+          <button id="clearBtn" class="text-sm text-red-600">Kosongkan</button>
+          <button id="closeCart" class="p-2 rounded hover:bg-gray-100">Tutup</button>
+        </div>
+      </div>
+      <div id="cartItems" class="mt-4 space-y-3 text-gray-700">
+        <!-- items rendered by JS -->
+      </div>
+      <div class="mt-4 border-t pt-4">
+        <div class="flex justify-between items-center">
+          <div class="text-sm text-gray-600">Total</div>
+          <div id="cartTotal" class="font-bold">Rp 0</div>
+        </div>
+        <div class="mt-4">
+          <button id="checkoutBtn" class="w-full px-4 py-2 bg-green-600 text-white rounded">Checkout via WhatsApp</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const WA_NUMBER = '6282328669030'; 
+
+    // nav
+  let prevScroll = window.pageYOffset;
+  const navbar = document.getElementById("navbar");
+
+  window.onscroll = function () {
+    let currentScroll = window.pageYOffset;
+
+    if (prevScroll < currentScroll) {
+      // Scroll ke bawah → sembunyi
+      navbar.style.transform = "translateY(-100%)";
+    } else {
+      // Scroll ke atas → muncul
+      navbar.style.transform = "translateY(0)";
+    }
+
+    prevScroll = currentScroll;
+  };
+
+    // list produk
+    const products = [
+      { id: 1, name: 'Bio Netra', price: 250000, img: 'img/bio.jpg' },
+      { id: 2, name: 'Vitoza Madu Pahit', price: 185000, img: 'img/vz.jpg' },
+      { id: 3, name: 'Oranirru', price: 200000, img: 'img/on.jpg' },
+      { id: 4, name: 'Minyak Rempah 99', price: 200000, img: 'img/99.jpg' },
+      { id: 5, name: 'Omaka', price: 180000, img: 'img/om.jpg' },
+      { id: 6, name: 'Marie Pro1', price: 200000, img: 'img/mp.jpg' },
+      { id: 7, name: 'Menroso', price: 250000, img: 'img/mr.jpg' },
+      { id: 8, name: 'Prolit', price: 180000, img: 'img/pr.jpg' },
+      { id: 9, name: 'Bio Nuratik', price: 200000, img: 'img/bn.jpg' },
+      { id: 10, name: 'Asinda', price: 120000, img: 'img/as.jpg' },
+      { id: 11, name: 'Madu Hijau', price: 180000, img: 'img/mh.jpg' },
+      { id: 12, name: 'Al Afdhal', price: 220000, img: 'img/aa.jpg' },
+      { id: 13, name: 'X-Natural Pro', price: 275000, img: 'img/xn.jpg' },
+    ];
+
+    // state
+    let cart = [];
+
+    // helpers
+    function rupiah(n){ return 'Rp ' + n.toLocaleString('id-ID'); }
+
+    // render products
+    const productsEl = document.getElementById('products');
+    products.forEach(p => {
+      const card = document.createElement('article');
+      card.className = 'bg-white rounded shadow hover:shadow-md overflow-hidden cursor-pointer';
+      card.innerHTML = `
+        <img src="${p.img}" alt="${p.name}" class="w-full h-44 object-cover" />
+        <div class="p-3">
+          <h4 class="font-medium">${p.name}</h4>
+          <div class="mt-2 flex items-center justify-between">
+            <div class="text-sm text-gray-600">${rupiah(p.price)}</div>
+            <button class="px-2 py-1 text-sm border rounded addBtn">Tambah</button>
+          </div>
+        </div>
+      `;
+
+      // click on card -> add to cart and open cart
+      card.addEventListener('click', (e) => {
+        // avoid double-trigger when clicking the internal button
+        if(e.target.classList.contains('addBtn')){ addToCart(p.id); e.stopPropagation(); return; }
+        addToCart(p.id);
+      });
+
+      productsEl.appendChild(card);
+    });
+
+    // cart UI
+    const cartPanel = document.getElementById('cartPanel');
+    const cartBtn = document.getElementById('cartBtn');
+    const cartCount = document.getElementById('cartCount');
+    const cartItemsEl = document.getElementById('cartItems');
+    const cartTotalEl = document.getElementById('cartTotal');
+    const checkoutBtn = document.getElementById('checkoutBtn');
+    const closeCart = document.getElementById('closeCart');
+    const clearBtn = document.getElementById('clearBtn');
+
+    cartBtn.addEventListener('click', toggleCart);
+    closeCart.addEventListener('click', toggleCart);
+    document.getElementById('overlay')?.addEventListener('click', toggleCart);
+    clearBtn.addEventListener('click', () => { cart = []; updateCartUI(); });
+
+    function toggleCart(){
+      if(cartPanel.classList.contains('hidden')) cartPanel.classList.remove('hidden');
+      else cartPanel.classList.add('hidden');
+    }
+
+    function addToCart(id){
+      const p = products.find(x => x.id === id);
+      const existing = cart.find(x => x.id === id);
+      if(existing) existing.qty += 1;
+      else cart.push({ id: p.id, name: p.name, price: p.price, qty: 1 });
+      updateCartUI();
+      // open cart
+      if(cartPanel.classList.contains('hidden')) cartPanel.classList.remove('hidden');
+    }
+
+    function updateCartUI(){
+      // badge
+      const totalItems = cart.reduce((s,i) => s + i.qty, 0);
+      cartCount.textContent = totalItems;
+
+      // items
+      cartItemsEl.innerHTML = '';
+      if(cart.length === 0) cartItemsEl.innerHTML = '<div class="text-gray-500">Keranjang kosong</div>';
+      cart.forEach(item => {
+        const row = document.createElement('div');
+        row.className = 'flex items-center justify-between gap-3';
+        row.innerHTML = `
+          <div>
+            <div class="font-medium">${item.name}</div>
+            <div class="text-sm text-gray-500">${item.qty} x ${rupiah(item.price)}</div>
+          </div>
+          <div class="flex items-center gap-2">
+            <button class="px-2 py-1 border rounded dec">-</button>
+            <div class="w-6 text-center">${item.qty}</div>
+            <button class="px-2 py-1 border rounded inc">+</button>
+          </div>
+        `;
+        // handle inc/dec
+        row.querySelector('.inc').addEventListener('click', () => { item.qty += 1; updateCartUI(); });
+        row.querySelector('.dec').addEventListener('click', () => { item.qty -= 1; if(item.qty<=0) cart = cart.filter(c => c.id !== item.id); updateCartUI(); });
+        cartItemsEl.appendChild(row);
+      });
+
+      const total = cart.reduce((s,i) => s + (i.price * i.qty), 0);
+      cartTotalEl.textContent = rupiah(total);
+    }
+
+    // checkout -> create wa message
+    checkoutBtn.addEventListener('click', () => {
+      if(cart.length === 0){ alert('Keranjang kosong'); return; }
+      const total = cart.reduce((s,i) => s + (i.price * i.qty), 0);
+      let msg = `Halo, saya ingin memesan:\n`;
+      cart.forEach(i => { msg += `- ${i.qty} x ${i.name} = ${rupiah(i.price * i.qty)}\n`; });
+      msg += `Total: ${rupiah(total)}\n\n`;
+      msg += `Nama:\nAlamat:\nNo. HP:\nCatatan (opsional):\n\nTerima kasih.`;
+      const waUrl = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`;
+      window.open(waUrl, '_blank');
+    });
+
+    // mobile menu toggle
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileNav = document.getElementById('mobileNav');
+    menuBtn.addEventListener('click', () => mobileNav.classList.toggle('hidden'));
+
+    // init
+    updateCartUI();
+
+  </script>
+</div>
+</body>
+</html>
+>>>>>>> 270cd1413efe2f829ff501f080c2491601f5e0c0
